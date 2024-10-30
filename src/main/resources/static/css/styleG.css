@@ -1,0 +1,361 @@
+/* =======GERAL======= */
+
+body {
+    margin: 0px;
+}
+
+.container1 {
+    background-color: #a52a2a;
+    padding-bottom: 5px;
+    box-shadow: 0px 3px 10px rgb(65, 65, 65);
+}
+
+.container2 {
+    background-color: rgb(24, 24, 24);
+
+}
+
+.container3 {
+    background-color: #a52a2a;
+    border: 3px solid black;
+}
+
+#btn-apagar {
+    font-size: 1rem;
+    height: 3rem;
+    width: 6rem;
+}
+
+.centralizado{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* =======HEADER======= */
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul {
+    padding-right: 10vw;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.links {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.15rem;
+    color: brown;
+    text-decoration: none;
+}
+
+
+
+.login-button button {
+    border: none;
+    background-color: brown;
+    padding: 10px 15px;
+    border-radius: 15px;
+
+}
+
+.login-button button a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1rem;
+
+
+}
+
+
+.login-button button:active {
+    background-color: rgb(90, 21, 21);
+    transform: translateY(2px);
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+
+
+
+/* ======= INÍCIO ======= */
+
+
+.container-inicio1 {
+    background-color: rgb(24, 24, 24);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container-inicio2 {
+    background-color: brown;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.img-esquerda {
+    display: block;
+    margin-left: auto;
+    height: 8vw;
+}
+
+.img-direita {
+    display: block;
+    margin-right: auto;
+    height: 8vw;
+}
+
+
+.container-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.texto-esquerda {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 30px;
+    margin-right: 20vw;
+}
+
+.texto-direita {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 30px;
+    margin-left: 20vw;
+    text-align: right;
+}
+
+.container-btns {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.container-btn {
+    color: #a52a2a;
+    padding-top: 15vw;
+}
+
+.btn-seletor {
+    width: 33.3vw;
+    height: 50vw;
+
+}
+
+.btn-icon {
+    margin-top: 20px;
+    height: 10vw;
+}
+
+
+/* =======REGISTROS======= */
+
+.links2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.15rem;
+    color: white;
+    text-decoration: none;
+}
+
+.mobile-menu2-icon {
+    display: none;
+}
+
+.mobile-menu2 {
+    display: none;
+}
+
+.nav-bar2 {
+    display: flex;
+    padding: 1.5rem 6rem;
+
+}
+
+.nav-list2 {
+    display: flex;
+    align-items: flex-end;
+}
+
+.nav-list2 ul {
+    padding-right: 30vw;
+    padding-left: 30vw;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item2 {
+    margin: 0 15px;
+    list-style: none;
+}
+
+
+
+
+
+@media screen and (max-width: 730px) {
+
+    /* =======GERAL MOBILE======= */
+    .open {
+        display: block;
+    }
+
+    #btn-apagar {
+        font-size: 0.8rem;
+        height: 2rem;
+        width: 4rem;
+    }
+
+    /* =======HEADER MOBILE======= */
+
+    .nav-bar {
+        padding: 1.5rem 4rem;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .login-button {
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+        ;
+    }
+
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+
+    .mobile-menu .login-button {
+        display: block;
+        padding: 1rem 2rem;
+    }
+
+    .mobile-menu .login-button button {
+        width: 100%;
+    }
+
+
+
+
+    /* =======SELETOR MOBILE======= */
+
+
+    .mobile-menu2-icon {
+        display: block;
+    }
+
+    .mobile-menu2-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .mobile-menu2 ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .mobile-menu2 .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+
+
+    /* =======INICIO MOBILE======= */
+
+    .img-esquerda {
+        display: block;
+        margin-left: auto;
+        height: 10vw;
+    }
+
+    .img-direita {
+        display: block;
+        margin-right: auto;
+        height: 10vw;
+    }
+
+
+    .texto-esquerda {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding-top: 30px;
+        margin-right: 10vw;
+    }
+
+    .texto-direita {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding-top: 30px;
+        margin-left: 10vw;
+        text-align: right;
+    }
+
+
+    /* ======= CAMPANHA MOBILE======= */
+
+
+    .container-btns {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+
+    }
+
+    .container-btn {
+        color: #a52a2a;
+        padding-top: 15vw;
+    }
+
+}.form-control {
+
+}
